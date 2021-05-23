@@ -9,7 +9,7 @@ class Mersenne2:
         self.pow_of_2 = algorithm
 
     def __call__(self, arg):
-        return self.pow_of_2(arg) - 1
+        return self.pow_of_2(arg)
 
 
 def shift_bits(x: int) -> int:
@@ -35,4 +35,6 @@ m1 = Mersenne2(shift_bits)
 m2 = Mersenne2(recursive)
 m3 = Mersenne2(faster)
 
-print(f'{m1(20)} {m2(20)} {m3(20)}')
+power = 10**2
+
+print(f'{m1(power)} {m2(power)} {m3(power)}')
