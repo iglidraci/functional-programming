@@ -1,4 +1,4 @@
-from functional_programming.sqrt import *
+from sqrt import me_sqrt
 
 
 def is_prime(n):

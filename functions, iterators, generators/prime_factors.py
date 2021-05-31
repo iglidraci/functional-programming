@@ -4,7 +4,7 @@ import itertools
 import time
 from typing import Iterator, Any
 
-from functional_programming.sqrt import me_sqrt
+from sqrt import me_sqrt
 
 
 def prime_factors_of(x: int) -> Iterator[int]:
